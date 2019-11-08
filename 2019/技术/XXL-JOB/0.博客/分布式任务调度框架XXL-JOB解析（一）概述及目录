@@ -39,7 +39,7 @@ XXL-JOB的中“调度模块”和“任务模块”完全解耦，调度模块�
 
 - xxl-job-core：公共依赖
 
--  xxl-job-executor-samples：提供了多种开箱即用的执行器示例，选择合适的版本执行器，可直接使用，也可以参考其并将现有项目改造成执行器，我们这里使用springboot版本的执行器进行学习。
+-  xxl-job-executor-samples：提供了多种开箱即用的执行器示例，选择合适的版本执行器，可直接使用，也可以参考其并将现有项目改造成执行器。
 
 ### 初始化数据库
 
@@ -53,9 +53,21 @@ XXL-JOB的中“调度模块”和“任务模块”完全解耦，调度模块�
 
 我们这里使用XxlConfAdminApplication作为启动类启动，会发现启动的非常快，访问http://localhost:8080/xxl-job-admin，账号密码为admin/123456，登录后即可看到如下页面
 
+![è°åº¦ä¸­å¿é¦é¡µ.png](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/6.%E5%85%B6%E4%BB%96/%E8%B0%83%E5%BA%A6%E4%B8%AD%E5%BF%83%E9%A6%96%E9%A1%B5.png?raw=true) 
 
+调度中心默认内置了一个任务，如下所示
 
-### 目录
+ ![é»è®¤ä»»å¡é¡µé¢.png](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/6.%E5%85%B6%E4%BB%96/%E9%BB%98%E8%AE%A4%E4%BB%BB%E5%8A%A1%E9%A1%B5%E9%9D%A2.png?raw=true) 
+
+### 启动执行器
+
+XXL-JOB提供了多种类型的执行器实例，我们这里使用springboot版本的执行器进行学习。
+
+ ![åç»ææªå¾.png](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/6.%E5%85%B6%E4%BB%96/%E5%8C%85%E7%BB%93%E6%9E%84%E6%88%AA%E5%9B%BE.png?raw=true) 
+
+ 其中第二个handler——DemoJobHandler，即是刚刚看到的那个默认创建任务对应的Handler。
+
+![demoJobHandler.png](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/6.%E5%85%B6%E4%BB%96/demoJobHandler.png?raw=true) 
 
 上文摘自XXL-JOB的[官网](https://www.xuxueli.com/xxl-job/)，自己工作中正好接触到了这个框架，拟写如下几篇博客，记录自己学习的成果，之后会更新博客的链接。
 
