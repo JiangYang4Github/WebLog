@@ -1,6 +1,6 @@
 # 架构图
 
- ![img](https://raw.githubusercontent.com/JiangYang4Github/image-repository/master/XXL-JOB/6.%E5%85%B6%E4%BB%96/%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84.png) 
+ ![img](https://raw.githubusercontent.com/JiangYang4Github/WebLog/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/6.%E5%85%B6%E4%BB%96/%E6%95%B4%E4%BD%93%E6%9E%B6%E6%9E%84.png) 
 
 上图是我们要进行源码分析的2.1版本的整体架构图。其分为两大块，调度中心和执行器，本文先分析调度中心，也就是xxl-job-admin这个包的代码。
 
@@ -252,4 +252,4 @@ while (!ringThreadToStop) {
 
 # 时序图
 
- ![img](https://raw.githubusercontent.com/JiangYang4Github/image-repository/master/XXL-JOB/2.%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6/%E8%B0%83%E5%BA%A6%E4%B8%AD%E5%BF%83%E8%B0%83%E5%BA%A6%E4%BB%BB%E5%8A%A1%E6%97%B6%E5%BA%8F%E5%9B%BE.png) 
+ ![è°åº¦ä¸­å¿è°åº¦ä»»å¡æ¶åºå¾.png](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/2.%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6/%E8%B0%83%E5%BA%A6%E4%B8%AD%E5%BF%83%E8%B0%83%E5%BA%A6%E4%BB%BB%E5%8A%A1%E6%97%B6%E5%BA%8F%E5%9B%BE.png?raw=true) 
