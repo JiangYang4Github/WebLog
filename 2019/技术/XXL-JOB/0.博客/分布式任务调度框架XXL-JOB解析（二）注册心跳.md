@@ -443,3 +443,5 @@ public ReturnT<String> registryRemove(RegistryParam registryParam) {
 ![](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/5.%E6%B3%A8%E5%86%8C%E5%BF%83%E8%B7%B3/%E8%B0%83%E5%BA%A6%E4%B8%AD%E5%BF%83%E6%8E%A5%E6%94%B6%E6%B3%A8%E5%86%8C%E5%92%8C%E5%BF%83%E8%B7%B3%E5%A4%84%E7%90%86%E6%97%B6%E5%BA%8F%E5%9B%BE.png?raw=true) 
 
 ## 三、预告
+
+本篇分析了调度中心和执行器之间的注册心跳是如何实现的，之后的两篇是这个调度框架比较重要的业务逻辑，我们来看看任务的调度和分发是如何实现的。
