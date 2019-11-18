@@ -1,3 +1,5 @@
+![](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%9B%BE%E7%89%87/index.jpg?raw=true)
+
 ## 一、概述
 
 ### 1.背景
@@ -262,3 +264,7 @@ AppName: 是每个执行器集群的唯一标示AppName, 执行器会周期性�
 - 执行任务
 - 结果上报
 - 失败重试
+
+喜欢的可以关注我的公众号「**江飞杰**」第一时间阅读（会更新的比较快），里面也有自己的一些和技术无关的读书笔记与生活随感。
+
+![](https://github.com/JiangYang4Github/WebLog/blob/master/WechatCode.jpg?raw=true)
