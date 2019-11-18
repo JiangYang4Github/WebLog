@@ -1,3 +1,5 @@
+![](https://github.com/JiangYang4Github/WebLog/blob/master/2019/%E6%8A%80%E6%9C%AF/XXL-JOB/%E7%AC%AC%E4%BA%8C%E7%AF%87/index.jpg?raw=true)
+
 正如第一篇文章所看到的，在我们启动一个执行器之后，我们会在一个延迟时间之后在调度中心看到这个注册上来的执行器，那在XXL-JOB框架中是如何实现的呢？我们先来看执行器这边。
 
 ## 一、执行器
